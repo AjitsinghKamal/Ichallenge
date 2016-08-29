@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivityFragment1"
+    tools:showIn="@layout/activity_main">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/dialog_relative">
+
+        <NumberPicker
+            android:id="@+id/dialog_picker"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginRight="15dp"
+            android:layout_marginEnd="15dp"
+
+            />
+        <TextView
+            android:id="@+id/dialog_text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/main_days"
+            android:textSize="35sp"
+            android:layout_centerInParent="true"
+            android:layout_toRightOf="@id/dialog_picker"
+            android:layout_toEndOf="@id/dialog_picker"/>
+
+
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/dialog_done"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dialog_relative"
+        android:layout_margin="20dp"
+        android:text="Done"
+        android:textSize="20sp"/>
+
+
+
+
+</RelativeLayout>

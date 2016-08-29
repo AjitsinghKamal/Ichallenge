@@ -1,0 +1,22 @@
+<resources>
+    <!--
+        name format : [activity prefix]_desiredName
+        activity prefixes used..
+        activity_main : main
+        activity_main2 : main2
+    -->
+    <string name="app_name">I challenge</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">SetUp</string>
+    <string name="title_activity_main2">Challenge</string>
+    <!--strings in activity_main-->
+    <string name="main_titleText">Challenge Name</string>
+    <string name="main_titleDefault">New Challenge</string>
+    <string name="main_selectorText">Choose Duration</string>
+    <string name="main_switchText">Choose Mode</string>
+    <string name="main_duration">21</string>
+    <string name="main_days">Days</string>
+    <string name="main_switch_lazy">Lazy</string>
+    <string name="main_switch_strict">Strict</string>
+
+</resources>
